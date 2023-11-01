@@ -8,104 +8,44 @@
 
 body {
     font-family: 'Lato', 'sans-serif';
-    font-size: 17px;
+    font-size: 16px;
     font-size: 400;
     color: #333;
 }
 
 .header {
-    clear: both;
     background-color: #fdfdfd;
-    height: 120px;
+    height: 125px;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1); 
 }
 
-.header-img {
-    float: left;
-    margin-left: 2rem;
-    margin-top: -2rem;
-    padding-top: 1.5rem;
-}
-.top-navigation {
-    margin: 0 2rem;
-}
-.left-side-menu, 
-.right-side-menu {
-    list-style-type: none;
-    margin-top: .8rem;
+.level-container {
+    padding-top: 1.1rem;
 }
 
-.left-side-menu {
-    float: left;
-    margin-left: 2.4rem;
+/* .navbar {
+    margin-left: 5rem;
+    margin-top: -1rem;
+    background-color: transparent;
+} */
+
+ .navbar-item img {
+    max-height: 4rem !important;
 }
 
-.right-side-menu {
-    float: right;
-}
-
-.left-item-menu, 
-.right-item-menu  {
-    display: inline-flex;
-}
-
-.left-link-menu,
-.right-link-menu {
-    text-decoration: none;
-    font-size: 14px;
-    padding: .6rem;
-    color: #333;
-}
-.location-link {
-    text-decoration:  underline;
-    color: #08fc;
-}
-
-.nav {
-    list-style-type:  none;
-    float: right;
-    margin-right: 22.5rem;
-    padding-top: .5rem;
-}
-
-.nav-dropdown .nav-item {
-    display: block;
-    transition-duration: 0.5s;
-}
-
-.nav .nav-dropdown {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    transition:  all 0.5s ease;
-    margin-top: 1rem;
-    left: 0;
-    display: none;
-}
-
-.nav .dropmenu:hover .nav-dropdown {
-    visibility: visible;
-    opacity: 1;
-    display: block;
+.navbar-menu {
+    margin-top: 2rem;
 }
 
 
-.nav-item {
-    display: inline-flex;
-    margin-right: 5px;
+.is-yellow {
+    border: none;
+    padding: 8px;
+    background-color: #ffc72c;
+    font-size: 1rem;
+    border-radius: 5%;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: #333;
-    padding: 5px;
-    font-weight: 400;
-}
-
-.nav-link:hover {
-    cursor: pointer;
-    border-bottom: 1px solid #ffc72c;
-}
 
 .cta-btn {
     border: none;
@@ -177,9 +117,6 @@ body {
    margin-left: 2.8rem;
 }
 
-.bottom-footer-navigation {
-
-}
 
 .sub-nav-footer {
     display: inline-flex;
@@ -189,3 +126,9 @@ body {
     padding: 1rem;
     font-size: 15px;
 }
+
+.is-active {
+   visibility: visible !important;
+}
+
+/* Responsive design for mobile */ 

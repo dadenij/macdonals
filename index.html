@@ -9,84 +9,99 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
         <link rel="stylesheet" href="./css/styles.css">
         <title>MacDonald's clone site</title>
+    
     </head>
     <body>
         <header  class="header">
-            <div class="header-img">
-                <img src="./images/mcdonaldlogo.jpeg" alt="">
-             
+            <div class="container level-container">
+                <nav class="level">
+                    <div class="level-left">
+                        <div class="level-item">
+                            <a href="" class="navbar-link">Language</a>
+                        </div>
+                        <div class="level-item">
+                            <a href="" class="navbar-item">Sign Up for Email</a>
+                        </div>
+                        <div class="level-item">
+                            <a href="" class="navbar-item">Careers</a>
+                        </div>
+                    </div>
+                    <div class="level-right">
+                        <div class="level-item">
+                            <a href="" class="navbar-item">Search</a>
+                        </div>
+                        <div class="level-item">
+                            <a href="" class="navbar-item">Change your Location</a>
+                        </div>
+                        <div class="level-item">
+                            <a href="" class="button is-yellow">Order Now</a>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <div class="container">
-            <nav class="top-navigation">
-                <ul class="left-side-menu">
-                    <li class="left-item-menu">
-                        <a href="" class="left-link-menu">Language</a>
-                    </li>
-                    <li class="left-item-menu">
-                        <a href="" class="left-link-menu">Sign Up for Email</a>
-                    </li>
-                    <li class="left-item-menu">
-                        <a href="" class="left-link-menu">Careers</a>
-                    </li>
-                </ul>
-                <ul class="right-side-menu">
-                    <li class="right-item-menu">
-                        <a href="" class="right-link-menu">Search</a>
-                    </li>
-                    <li class="right-item-menu">
-                        <a href="https://www.mcdonalds.com/us/en-us/restaurant-locator.html" class="right-link-menu location-link">Change your Location</a>
-                    </li>
-                    <li class="right-item-menu">
-                        <button class="cta-btn">
-                            <a href="" class="right-link-menu">Order Now</a>
-                        </button>
-                      
-                    </li>
-                </ul>
+            <!-- <div class="container"> -->
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a href="" class="navbar-item">
+                        <img src="./images/mcdonaldlogo.jpeg"  alt="">
+                    </a>
+                    <a role="button" href=""  id="burger" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nav-links">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+           
+                    <div id="nav-links" class="navbar-menu"">
+                        <div class="navbar-start">
+                            <div  class="navbar-item has-dropdown is-hoverable">
+                                <a href="" class="navbar-link">
+                                    Our Menu
+                                </a>
+                                <div class="navbar-dropdown">
+                                    <a class="navbar-item">
+                                      Breakfast
+                                    </a>
+                                    <a class="navbar-item">
+                                      Burgers
+                                    </a>
+                                    <a class="navbar-item">
+                                      Chicken & Fish Sandwiches
+                                    </a>
+                                    <a class="navbar-item">
+                                       Happy Meal
+                                    </a>
+                                    <a class="navbar-item">
+                                        Sweets & Treats
+                                     </a>
+                                     <a class="navbar-item">
+                                        Fries & Sides
+                                     </a>
+                                  </div>
+                            </div>
+                            <a class="navbar-item">
+                                Download App
+                              </a>
+                              <a class="navbar-item">
+                                 MyMcDonald's Rewards
+                              </a>
+                              <a class="navbar-item">
+                                Exclusive Deals
+                             </a>
+                             <a class="navbar-item">
+                                About Our Food
+                             </a>
+                             <a class="navbar-item">
+                               Locate
+                             </a>
+                             <a class="navbar-item">
+                                Gift Cards
+                             </a>
+                        
+                        </div>
+                    </div>          
             </nav>
-            <nav class="navigation">
-                <ul class="nav">
-                    <li class="nav-item dropmenu">
-                        <a href="https://www.mcdonalds.com/us/en-us/full-menu/breakfast.html" class="nav-link">Our Menu</a>
-                    </li>
-                    <!-- <ul class="nav-dropdown">
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Breakfast</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Burgers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Chicken & Fish Sandwiches</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Happy Meal</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Beverages</a>
-                        </li>
-                    </ul> -->
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Download App</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">MyMcDonald's Rewards</a>
-                    </li>
-                     <li class="nav-item">
-                        <a href="" class="nav-link">Exclusive Deals</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">About Our Food</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Locate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Gift Cards</a>
-                    </li>
-                </ul>
-            </nav>
-         </div>
+            <!-- </div> -->
         </header>
         <section class="menu mtop-8">
             <div class="container">
@@ -356,5 +371,6 @@
             </div>
         </div>
         </footer>
+        <script src="./js/script.js"></script>
     </body>
 </html>
